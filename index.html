@@ -61,6 +61,29 @@
         </div>
         <h2>Proyectos:</h2>
 
+          <!-- Tarjeta para mostrar descripción del proyecto -->
+          <div class="card mt-5">
+            <div class="card-body">
+                <h5 class="card-title">Proyecto: javaee8_pedidos</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Tecnologías: java, javaee 8, JavaScript, Oracle Database, JPA, Bootstrap.  </h6>
+                <p class="card-text">
+                <div class="card-body">
+                    <p>Proyecto en construccion para la gestion de pedidos que incluye administracion de clientes y productos</p>
+
+                    <a class="btn btn-primary" href="https://github.com/ceron1997/javaee8_pedidos.git" target="_blank">
+                        Ver repositorio en GitHub
+                    </a>
+
+                    <div class="container mt-4 p-md-5">
+                        <!-- Contenedor donde se insertará el carrusel -->
+                        <span id="carousel-javaee8_pedidos"></span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
         <!-- Tarjeta para mostrar descripción del proyecto -->
         <div class="card mt-5">
             <div class="card-body">
@@ -123,11 +146,13 @@
                     <a class="btn btn-primary" href="https://github.com/ceron1997/blog.git" target="_blank">
                         Ver repositorio en GitHub
                     </a>
-                    <!-- Aquí puedes agregar un carrusel de imágenes si lo deseas -->
-                    <div class="container mt-4">
-                        <iframe src="carousel-blog.html" frameborder="0" scrolling="no" width="100%"
-                            height="700px"></iframe>
+
+                    <div class="container mt-4 p-md-5">
+                        <!-- Contenedor donde se insertará el carrusel -->
+                        <span id="carouselContainer"></span>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -186,10 +211,11 @@
                 <a class="btn btn-primary" href="https://github.com/ceron1997/sistemaAcomsal.git" target="_blank">
                     Ver repositorio en GitHub </a>
                 <!-- Aquí puedes agregar un carrusel de imágenes si lo deseas -->
-                <div class="container mt-4">
-                    <iframe src="carousel-facturacion.html" frameborder="0" scrolling="no" width="100%"
-                        height="600px"></iframe>
+                <div class="container mt-4 p-md-5">
+                    <!-- Contenedor donde se insertará el carrusel -->
+                    <span id="carouselContainer1"></span>
                 </div>
+
             </div>
         </div>
 
@@ -218,9 +244,9 @@
                 <a class="btn btn-primary" href="https://github.com/ceron1997/plsql.git" target="_blank">
                     Ver repositorio en GitHub </a>
                 <!-- Aquí puedes agregar un carrusel de imágenes si lo deseas -->
-                <div class="container mt-4">
-                    <iframe src="carousel-plsql.html" frameborder="0" scrolling="no" width="100%"
-                        height="600px"></iframe>
+                <div class="container mt-4 p-md-5">
+                    <!-- Contenedor donde se insertará el carrusel -->
+                    <span id="carouselContainer2"></span>
                 </div>
             </div>
         </div>
@@ -338,6 +364,8 @@
         <script src="css/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
         <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/index.js"></script>
+
 
 
 </body>
