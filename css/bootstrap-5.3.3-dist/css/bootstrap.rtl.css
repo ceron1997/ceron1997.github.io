@@ -704,7 +704,7 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
+.d-block w-100 {
   max-width: 100%;
   height: auto;
 }
