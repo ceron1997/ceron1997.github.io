@@ -52,6 +52,15 @@ $(document).ready(function () {
             $('#carousel-javaee').html(data);
         }
     });
+
+    $.ajax({
+        url: 'carousel-planilla.html',
+        success: function (data) {
+            $('#carousel-planilla').html(data);
+        }
+    });
+
+    
   
 
 
